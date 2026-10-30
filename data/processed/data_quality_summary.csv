@@ -1,0 +1,5 @@
+activity,recording_count,sample_count,total_duration_s,median_sampling_rate_hz,sampling_rate_min_hz,sampling_rate_max_hz,selected_signal_missing_values,recordings_in_train,recordings_in_test,timestamp_alignment_exact_for_all_recordings
+standing,13,4830,96.588445,49.870332,49.869725,49.880657,0,11,2,True
+walking,13,4583,91.630706,49.874583,49.872761,49.875190,0,11,2,True
+jumping,13,4562,91.209408,49.874583,49.872761,49.875190,0,11,2,True
+still,13,4619,92.358865,49.870939,49.865475,49.872761,0,11,2,True

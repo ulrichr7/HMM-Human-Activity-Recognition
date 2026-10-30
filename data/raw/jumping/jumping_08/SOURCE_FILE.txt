@@ -1,0 +1,3 @@
+Outer archive: Jumping.zip
+Nested archive: jumping_8-2026-10-26_15-27-18.zip
+Activity label: jumping

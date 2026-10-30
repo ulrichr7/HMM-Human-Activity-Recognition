@@ -1,0 +1,2 @@
+version,device name,recording epoch time,recording time,recording timezone,platform,appVersion,sensors,sampleRateMs,standardisation,platform version
+3,iPhone 13 Pro,1793025933672,2026-10-26_14-45-33,Africa/Kigali,ios,1.68,Accelerometer|Gyroscope|Annotation|GyroscopeUncalibrated|AccelerometerUncalibrated,20|20||20|20,false,27.2

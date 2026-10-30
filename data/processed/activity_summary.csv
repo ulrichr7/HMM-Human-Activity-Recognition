@@ -1,0 +1,5 @@
+activity,recordings,total_duration_s,average_duration_s,median_sampling_rate_hz,min_sampling_rate_hz,max_sampling_rate_hz,total_samples,max_inter_sample_gap_ms,target_duration_s,meets_90s_target_in_current_bundle,seconds_short_of_target
+jumping,13,91.209408,7.016108,49.874583,49.872761,49.875190,4562,20.052979,90.000000,True,0.000000
+standing,13,96.588445,7.429880,49.870332,49.869725,49.880657,4830,20.054443,90.000000,True,0.000000
+still,13,92.358865,7.104528,49.870939,49.865475,49.872761,4619,20.055420,90.000000,True,0.000000
+walking,13,91.630706,7.048516,49.874583,49.872761,49.875190,4583,20.052979,90.000000,True,0.000000

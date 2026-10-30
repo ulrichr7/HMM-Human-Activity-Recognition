@@ -1,0 +1,17 @@
+{
+  "activities": {
+    "jumping": 13,
+    "standing": 13,
+    "still": 13,
+    "walking": 13
+  },
+  "recording_count": 52,
+  "sample_rows": 18594,
+  "source_raw_csv_count": 312,
+  "total_duration_s_current_bundle": 371.787424,
+  "median_sampling_rate_hz_overall": 49.872761,
+  "train_recordings": 44,
+  "test_recordings": 8,
+  "standing_duration_s_current_bundle": 96.588445,
+  "standing_90s_target_met_in_current_bundle": true
+}

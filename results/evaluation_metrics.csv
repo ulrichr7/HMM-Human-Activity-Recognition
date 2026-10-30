@@ -1,0 +1,5 @@
+state,number_of_test_windows,sensitivity,specificity,overall_accuracy
+standing,10,1.0,1.0,1.0
+walking,11,1.0,1.0,1.0
+jumping,13,1.0,1.0,1.0
+still,11,1.0,1.0,1.0

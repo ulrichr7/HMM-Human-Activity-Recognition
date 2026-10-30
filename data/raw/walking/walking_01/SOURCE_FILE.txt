@@ -1,0 +1,3 @@
+Outer archive: Walking.zip
+Nested archive: walking_1-2026-10-26_15-09-45.zip
+Activity label: walking
