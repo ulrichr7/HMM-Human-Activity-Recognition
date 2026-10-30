@@ -26,7 +26,7 @@ HMM_Human_Activity_Recognition/
 │   ├── 01_data_preprocessing_and_eda.ipynb
 │   ├── 02_feature_extraction.ipynb
 │   └── 03_hmm_implementation.ipynb
-├── scripts/              # Reusable preprocessing, extraction and HMM scripts
+├── scripts/              # Reusable preprocessing, extraction, and HMM scripts
 ├── src/                  # HMM algorithm functions
 ├── results/              # Metrics, fitted parameters and decoded sequences
 ├── figures/              # EDA and HMM visualizations
@@ -62,18 +62,12 @@ python scripts/run_hmm.py
 - Feature windows are two seconds long, with a one-second hop. Scaling parameters are fitted on training windows only.
 - A diagonal-covariance Gaussian HMM uses label-informed initialization followed by Baum-Welch refinement. Training checks the absolute change in training log-likelihood against `1e-5`.
 - Viterbi finds the most likely hidden-state sequence for each held-out recording.
-- Evaluation reports class sensitivity, specificity and accuracy, plus a confusion matrix.
+- Evaluation reports class sensitivity, specificity, and accuracy, plus a confusion matrix.
 
 ## Interpretation and limitations
 
-Each recording contains one activity class. As a result, the learned transition matrix is dominated by self-transitions and does not fully model natural transitions between activities. The held-out test recordings come from the same participant, phone and collection period. More participants, devices and continuous mixed-activity sessions would be needed to test broader generalization.
+Each recording contains one activity class. As a result, the learned transition matrix is dominated by self-transitions and does not fully model natural transitions between activities. The held-out test recordings come from the same participant, phone and collection period. More participants, devices, and continuous mixed-activity sessions would be needed to test broader generalization.
 
 ## Video evidence
 
-The four collection-video URLs are listed in `evidence/video_links.md`. Check that all links open for the instructor and that each video meets the assignment's requirements for duration, full-body visibility, face visibility, lighting and proof of recording the activity.
-
-## Before submission
-
-- Insert the student's name and confirm report length against the 4–5-page requirement.
-- Confirm the four video links and video contents.
-- Upload this folder to GitHub without changing the relative paths.
+The four collection-video URLs are listed in "evidence/video_links.md". Check that all links open for the instructor and that each video meets the assignment's requirements for duration, full-body visibility, face visibility, lighting, and proof of recording the activity.
